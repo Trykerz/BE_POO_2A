@@ -9,10 +9,11 @@ circuit_A :: circuit_A(){
     R = 0;
 }
 
-circuit_A :: circuit_A(float saisie_Vs_init, float saisie_R, float saisie_C){
+circuit_A :: circuit_A(float saisie_Vs_init, float saisie_R, float saisie_C, float saisie_Ve){
     C = saisie_C;
     R = saisie_R;
     Vs_init = saisie_Vs_init;
+    Ve_init = saisie_Ve;
 }
 
 float circuit_A :: Vs(float t){
