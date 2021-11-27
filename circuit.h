@@ -12,7 +12,6 @@ public :
 class circuit_A : public circuit{
 protected :
     float R, C;
-
 public :
     circuit_A();
     circuit_A(float saisie_Vs_init, float saisie_R, float saisie_C);
